@@ -1,10 +1,14 @@
 name 'nexus_wrapper'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'okram999'
+maintainer_email 'nirish.okram@gmail.com'
 license 'all_rights'
 description 'Installs/Configures nexus_wrapper'
 long_description 'Installs/Configures nexus_wrapper'
 version '0.1.0'
+
+depends 'nexus', '~> 3.3.0'
+
+
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
